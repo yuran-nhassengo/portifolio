@@ -69,5 +69,19 @@ header a {
    width: 100vw;
    border: 3px solid rgb(15, 15, 221);
    bottom: 0;
-   padding: 1rem 0.2rem 1rem;
+   padding: 2rem 2rem 1rem 0.5rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+
+ footer > div h2{
+   color:rgb(255, 255, 255);
+   font-size: 1.8rem;
+   text-align: center;
+ }
+
+ footer > div p{
+   font-size: 1.5rem;
+   margin-top: 0.3rem;
  }
