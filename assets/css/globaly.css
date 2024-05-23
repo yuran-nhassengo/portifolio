@@ -64,6 +64,22 @@ header a {
     background-color: rgb(9, 9, 9,0.2);
  }
 
+ main{
+   margin: 0.8rem;
+ }
+
+ main h1{
+   font-size: 2.5rem;
+ }
+
+ main h2{
+   font-size: 1.5rem;
+ }
+
+ main p{
+   font-size: 2rem;
+ }
+
  footer{
    position: fixed;
    width: 100vw;
