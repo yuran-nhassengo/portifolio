@@ -36,3 +36,22 @@ p{
 .pitch{
     margin-top: 2rem;
 }
+
+button{
+    border: 3px solid rgb(0, 0, 255);
+    margin: 1rem;
+    width: 14rem;
+    height: 3.2rem;
+    border-radius: 3rem ;
+    background-color:rgb(255, 255, 255,0) ;
+    color:rgb(0, 0, 255);
+    cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+}
+
+button:hover{
+    background-color:rgb(255, 255, 255,0.8) ;
+}
