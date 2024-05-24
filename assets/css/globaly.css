@@ -110,6 +110,10 @@ main{
    /*margin-top: 0.3rem;*/
  }
 
- footer > div img{
-  color:rgb(5, 129, 143);;
+ footer{
+   position: absolute;
+   bottom: 0;
+   display: flex;
+   border: none;
+  background:rgb(5, 129, 143);
  }
