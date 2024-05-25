@@ -15,3 +15,7 @@
     color: rgb(5, 129, 143,0.5)
     ;
 }
+
+.filter-buttons .btn:hover {
+    color: rgba(0,0,255);
+}
