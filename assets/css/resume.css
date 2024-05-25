@@ -1,0 +1,155 @@
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main > section{
+    width: 40%;
+}
+
+main .softlan{
+    border: 5px solid rgb(5, 129, 143,0.5);
+    margin-left: 12rem;
+    margin-top: 1rem;
+}
+
+.softlan{
+    box-shadow: 20px 20px 50px rgb(0,0,0);
+}
+
+.softlan li{
+    padding-left: 4rem;
+    list-style: inside;
+}
+
+h1{
+    margin-top: 2rem;
+    color: rgb(5, 129, 143,0.5);
+}
+
+.skills-area{
+    display: flex;
+    flex-direction: column;
+}
+
+.skill{
+    position: relative;
+    margin-bottom: 2rem     ;
+}
+
+.skill-title{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.skill-bar{
+    width: 100%;
+    background: rgba(255,255,255,0.6);
+    height: 2rem;
+    z-index: -1;
+    border-radius: 3rem;
+    position: absolute;
+}
+
+.skill-fill{
+    background: rgba(0,0,255);
+    height: 2rem;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1rem;
+    overflow: hidden;
+}
+
+.skill-percent{
+    font-size: 1.5rem;
+}
+
+.figma{
+    animation: figma 2s;
+    width: 95%;
+}
+
+
+.html{
+    animation: html 2s;
+    width: 90%;
+}
+
+.css{
+    animation: css 2s;
+    width: 60%;
+}
+
+.javascript{
+    animation: javascript 2s;
+    width: 30%;
+}
+
+.java {
+    animation: java 2s;
+    width: 30%;
+}
+
+.git {
+    animation: git 2s;
+    width: 50%;
+}
+
+@keyframes figma{
+    from {
+        width: 0;
+    }
+    to {
+        width: 95%;
+    }
+}
+
+@keyframes html{
+    from {
+        width: 0;
+    }
+    to {
+        width: 90%;
+    }
+}
+
+@keyframes css{
+    from {
+        width: 0;
+    }
+    to {
+        width: 60%;
+    }
+}
+
+@keyframes javascript{
+    from {
+        width: 0;
+    }
+    to {
+        width: 30%;
+    }
+}
+
+@keyframes java{
+    from {
+        width: 0;
+    }
+    to {
+        width: 30%;
+    }
+}
+
+@keyframes git{
+    from {
+        width: 0;
+    }
+    to {
+        width: 50   %;
+    }
+}
+
