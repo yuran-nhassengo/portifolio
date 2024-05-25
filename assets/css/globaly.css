@@ -90,10 +90,10 @@ main{
  }
 
  footer{
-  display: flex;
+   display: flex;
    width: 100vw;
    border: 3px solid rgb(15, 15, 221);
-  margin-top: 6rem;
+   margin-top: 6rem;
    /*padding: 2rem 2rem 1rem 0.5rem;*/
    flex-direction: row;
    justify-content: space-between;
@@ -111,7 +111,7 @@ main{
  }
 
  footer{
-   position: absolute;
+   position:relative;
    bottom: 0;
    display: flex;
    border: none;
