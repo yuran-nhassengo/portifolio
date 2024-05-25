@@ -64,7 +64,9 @@ header a {
     background-color: rgb(9, 9, 9,0.2);
  }
 
-main{
+
+ main{
+
    margin: 0.8rem;
  }
 
@@ -90,11 +92,10 @@ main{
  }
 
  footer{
-  display: flex;
+   display: flex;
    width: 100vw;
-   border: 3px solid rgb(15, 15, 221);
-  margin-top: 6rem;
-   /*padding: 2rem 2rem 1rem 0.5rem;*/
+   margin-top: 10rem;
+   padding: 2rem 2rem 1rem 0.5rem;
    flex-direction: row;
    justify-content: space-between;
  }
@@ -107,13 +108,11 @@ main{
 
  footer > div p{
    font-size: 1.5rem;
-   /*margin-top: 0.3rem;*/
  }
 
  footer{
    position:relative;
    bottom: 0;
-   display: flex;
    border: none;
-  background:rgb(5, 129, 143);
+   background:rgb(5, 129, 143);
  }

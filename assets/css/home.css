@@ -1,0 +1,57 @@
+main p{
+    color:rgb(255, 255, 255) ;
+}
+
+.foto > img{
+    background-size: cover;
+    border: 2px solid rgb(0, 0, 255);
+    border-radius: 70%;
+    width: 25vw;
+    height: 50vh;
+    float: right;
+    margin-right: 16rem;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+
+
+
+.saudacao{
+    margin-top: 4rem;
+}
+
+.saudacao > h1{
+    color: rgb(0, 0, 255); 
+}
+
+.saudacao > h2{
+    color:  rgb(255, 255, 255) ;
+}
+
+
+p{
+    line-height: 2.5rem;
+}
+
+.pitch{
+    margin-top: 2rem;
+}
+
+button{
+    border: 3px solid rgb(0, 0, 255);
+    margin: 1rem;
+    width: 14rem;
+    height: 3.2rem;
+    border-radius: 3rem ;
+    background-color:rgb(255, 255, 255,0) ;
+    color:rgb(0, 0, 255);
+    cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+}
+
+button:hover{
+    background-color:rgb(255, 255, 255,0.8) ;
+}
