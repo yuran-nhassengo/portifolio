@@ -28,6 +28,70 @@ main p{
     color:  rgb(255, 255, 255) ;
 }
 
+.txt-animado{
+    font-weight:100;
+}
+
+.txt-animado span{
+    position: relative;
+}
+
+.txt-animado  span::before{
+    content: "";
+    color: rgb(9,9,255);
+    animation: words 20s infinite ;
+    background-color: rgba(9,9,9);
+}
+
+.txt-animado  span::after{
+    content:"";
+    position: absolute; 
+    height: 100%;
+    border-left: 2px solid rgba(0,0,255);
+    right: -10px;
+    animation: cursorr .8s infinite, digite 20s steps(15) infinite;
+    width: calc(100% + 18px);
+    background-color: rgba(9,9,9);
+}
+
+@keyframes digite {
+    10% , 15% , 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+        width: 0;
+    }
+
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 18px);
+    }
+}
+
+@keyframes cursorr {
+    0%{
+        
+        border-left: 2px solid rgb(9,9,9);
+    }
+}
+
+@keyframes words {
+    0%,20%{
+        content:"PRATICAL";
+    }
+
+    21%,40%{
+        content: " JUNIOR  ";
+    }
+
+    41%,60%{
+        content: "FULL-";
+    }
+
+    61%,80%{
+        content: "STACK" ;
+    }
+
+    81%,100%{
+        content:"DEVELOP" ;
+    }
+} 
 
 p{
     line-height: 2.5rem;
